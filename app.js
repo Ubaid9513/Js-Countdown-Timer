@@ -12,8 +12,6 @@ let setDate = setInterval(function () {
   document.getElementById("sec").innerHTML = sec;
 
   if (distance < 0) {
-    clearInterval(setDate)
-    
+    clearInterval(setDate);
   }
 }, 1000);
-
